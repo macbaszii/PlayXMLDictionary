@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		554F85631586303F006B224B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F85621586303F006B224B /* UIKit.framework */; };
+		554F85651586303F006B224B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F85641586303F006B224B /* Foundation.framework */; };
+		554F85671586303F006B224B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F85661586303F006B224B /* CoreGraphics.framework */; };
+		554F856D1586303F006B224B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 554F856B1586303F006B224B /* InfoPlist.strings */; };
+		554F856F1586303F006B224B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 554F856E1586303F006B224B /* main.m */; };
+		554F85731586303F006B224B /* PlayXMLDictionaryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 554F85721586303F006B224B /* PlayXMLDictionaryAppDelegate.m */; };
+		554F85761586303F006B224B /* PlayXMLDictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554F85751586303F006B224B /* PlayXMLDictionaryViewController.m */; };
+		554F85791586303F006B224B /* PlayXMLDictionaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554F85771586303F006B224B /* PlayXMLDictionaryViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		554F855E1586303F006B224B /* PlayXMLDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayXMLDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		554F85621586303F006B224B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		554F85641586303F006B224B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		554F85661586303F006B224B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		554F856A1586303F006B224B /* PlayXMLDictionary-Info.plist */ = {isa = PBXFileReference; path = "PlayXMLDictionary-Info.plist"; sourceTree = "<group>"; };
+		554F856C1586303F006B224B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		554F856E1586303F006B224B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		554F85701586303F006B224B /* PlayXMLDictionary-Prefix.pch */ = {isa = PBXFileReference; path = "PlayXMLDictionary-Prefix.pch"; sourceTree = "<group>"; };
+		554F85711586303F006B224B /* PlayXMLDictionaryAppDelegate.h */ = {isa = PBXFileReference; path = PlayXMLDictionaryAppDelegate.h; sourceTree = "<group>"; };
+		554F85721586303F006B224B /* PlayXMLDictionaryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayXMLDictionaryAppDelegate.m; sourceTree = "<group>"; };
+		554F85741586303F006B224B /* PlayXMLDictionaryViewController.h */ = {isa = PBXFileReference; path = PlayXMLDictionaryViewController.h; sourceTree = "<group>"; };
+		554F85751586303F006B224B /* PlayXMLDictionaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayXMLDictionaryViewController.m; sourceTree = "<group>"; };
+		554F85781586303F006B224B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PlayXMLDictionaryViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		554F855B1586303F006B224B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554F85631586303F006B224B /* UIKit.framework in Frameworks */,
+				554F85651586303F006B224B /* Foundation.framework in Frameworks */,
+				554F85671586303F006B224B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		554F85531586303D006B224B = {
+			isa = PBXGroup;
+			children = (
+				554F85681586303F006B224B /* PlayXMLDictionary */,
+				554F85611586303F006B224B /* Frameworks */,
+				554F855F1586303F006B224B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		554F855F1586303F006B224B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				554F855E1586303F006B224B /* PlayXMLDictionary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		554F85611586303F006B224B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				554F85621586303F006B224B /* UIKit.framework */,
+				554F85641586303F006B224B /* Foundation.framework */,
+				554F85661586303F006B224B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		554F85681586303F006B224B /* PlayXMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				554F85711586303F006B224B /* PlayXMLDictionaryAppDelegate.h */,
+				554F85721586303F006B224B /* PlayXMLDictionaryAppDelegate.m */,
+				554F85741586303F006B224B /* PlayXMLDictionaryViewController.h */,
+				554F85751586303F006B224B /* PlayXMLDictionaryViewController.m */,
+				554F85771586303F006B224B /* PlayXMLDictionaryViewController.xib */,
+				554F85691586303F006B224B /* Supporting Files */,
+			);
+			path = PlayXMLDictionary;
+			sourceTree = "<group>";
+		};
+		554F85691586303F006B224B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				554F856A1586303F006B224B /* PlayXMLDictionary-Info.plist */,
+				554F856B1586303F006B224B /* InfoPlist.strings */,
+				554F856E1586303F006B224B /* main.m */,
+				554F85701586303F006B224B /* PlayXMLDictionary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		554F855D1586303F006B224B /* PlayXMLDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554F857C1586303F006B224B /* Build configuration list for PBXNativeTarget "PlayXMLDictionary" */;
+			buildPhases = (
+				554F855A1586303F006B224B /* Sources */,
+				554F855B1586303F006B224B /* Frameworks */,
+				554F855C1586303F006B224B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayXMLDictionary;
+			productName = PlayXMLDictionary;
+			productReference = 554F855E1586303F006B224B /* PlayXMLDictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		554F85551586303E006B224B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PlayXMLDictionary;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 554F85581586303E006B224B /* Build configuration list for PBXProject "PlayXMLDictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 554F85531586303D006B224B;
+			productRefGroup = 554F855F1586303F006B224B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				554F855D1586303F006B224B /* PlayXMLDictionary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		554F855C1586303F006B224B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554F856D1586303F006B224B /* InfoPlist.strings in Resources */,
+				554F85791586303F006B224B /* PlayXMLDictionaryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		554F855A1586303F006B224B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554F856F1586303F006B224B /* main.m in Sources */,
+				554F85731586303F006B224B /* PlayXMLDictionaryAppDelegate.m in Sources */,
+				554F85761586303F006B224B /* PlayXMLDictionaryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		554F856B1586303F006B224B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554F856C1586303F006B224B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		554F85771586303F006B224B /* PlayXMLDictionaryViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554F85781586303F006B224B /* en */,
+			);
+			name = PlayXMLDictionaryViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		554F857A1586303F006B224B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		554F857B1586303F006B224B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		554F857D1586303F006B224B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayXMLDictionary/PlayXMLDictionary-Prefix.pch";
+				INFOPLIST_FILE = "PlayXMLDictionary/PlayXMLDictionary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		554F857E1586303F006B224B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayXMLDictionary/PlayXMLDictionary-Prefix.pch";
+				INFOPLIST_FILE = "PlayXMLDictionary/PlayXMLDictionary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		554F85581586303E006B224B /* Build configuration list for PBXProject "PlayXMLDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554F857A1586303F006B224B /* Debug */,
+				554F857B1586303F006B224B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		554F857C1586303F006B224B /* Build configuration list for PBXNativeTarget "PlayXMLDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554F857D1586303F006B224B /* Debug */,
+				554F857E1586303F006B224B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 554F85551586303E006B224B /* Project object */;
+}
