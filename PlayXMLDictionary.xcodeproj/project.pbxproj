@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		551EDE67158652BF00C6C82B /* NewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551EDE65158652BF00C6C82B /* NewsDetailViewController.m */; };
+		551EDE68158652BF00C6C82B /* NewsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 551EDE66158652BF00C6C82B /* NewsDetailViewController.xib */; };
+		554B046015877A8200126007 /* blognoneNav.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B045F15877A8200126007 /* blognoneNav.png */; };
+		554B046315877C5B00126007 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554B046215877C5B00126007 /* QuartzCore.framework */; };
 		554F85631586303F006B224B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F85621586303F006B224B /* UIKit.framework */; };
 		554F85651586303F006B224B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F85641586303F006B224B /* Foundation.framework */; };
 		554F85671586303F006B224B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F85661586303F006B224B /* CoreGraphics.framework */; };
@@ -15,22 +19,39 @@
 		554F85731586303F006B224B /* PlayXMLDictionaryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 554F85721586303F006B224B /* PlayXMLDictionaryAppDelegate.m */; };
 		554F85761586303F006B224B /* PlayXMLDictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554F85751586303F006B224B /* PlayXMLDictionaryViewController.m */; };
 		554F85791586303F006B224B /* PlayXMLDictionaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554F85771586303F006B224B /* PlayXMLDictionaryViewController.xib */; };
+		554F858F1586345D006B224B /* BlognoneServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 554F858E1586345D006B224B /* BlognoneServices.m */; };
+		554F859615864502006B224B /* LICENCE.md in Resources */ = {isa = PBXBuildFile; fileRef = 554F859115864502006B224B /* LICENCE.md */; };
+		554F859715864502006B224B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 554F859215864502006B224B /* README.md */; };
+		554F859815864502006B224B /* RELEASE NOTES.md in Resources */ = {isa = PBXBuildFile; fileRef = 554F859315864502006B224B /* RELEASE NOTES.md */; };
+		554F859915864502006B224B /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 554F859515864502006B224B /* XMLDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		551EDE64158652BF00C6C82B /* NewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailViewController.h; sourceTree = "<group>"; };
+		551EDE65158652BF00C6C82B /* NewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailViewController.m; sourceTree = "<group>"; };
+		551EDE66158652BF00C6C82B /* NewsDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsDetailViewController.xib; sourceTree = "<group>"; };
+		554B045F15877A8200126007 /* blognoneNav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blognoneNav.png; sourceTree = "<group>"; };
+		554B046215877C5B00126007 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		554F855E1586303F006B224B /* PlayXMLDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayXMLDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		554F85621586303F006B224B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		554F85641586303F006B224B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		554F85661586303F006B224B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		554F856A1586303F006B224B /* PlayXMLDictionary-Info.plist */ = {isa = PBXFileReference; path = "PlayXMLDictionary-Info.plist"; sourceTree = "<group>"; };
+		554F856A1586303F006B224B /* PlayXMLDictionary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayXMLDictionary-Info.plist"; sourceTree = "<group>"; };
 		554F856C1586303F006B224B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		554F856E1586303F006B224B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		554F85701586303F006B224B /* PlayXMLDictionary-Prefix.pch */ = {isa = PBXFileReference; path = "PlayXMLDictionary-Prefix.pch"; sourceTree = "<group>"; };
-		554F85711586303F006B224B /* PlayXMLDictionaryAppDelegate.h */ = {isa = PBXFileReference; path = PlayXMLDictionaryAppDelegate.h; sourceTree = "<group>"; };
+		554F85701586303F006B224B /* PlayXMLDictionary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayXMLDictionary-Prefix.pch"; sourceTree = "<group>"; };
+		554F85711586303F006B224B /* PlayXMLDictionaryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayXMLDictionaryAppDelegate.h; sourceTree = "<group>"; };
 		554F85721586303F006B224B /* PlayXMLDictionaryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayXMLDictionaryAppDelegate.m; sourceTree = "<group>"; };
-		554F85741586303F006B224B /* PlayXMLDictionaryViewController.h */ = {isa = PBXFileReference; path = PlayXMLDictionaryViewController.h; sourceTree = "<group>"; };
+		554F85741586303F006B224B /* PlayXMLDictionaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayXMLDictionaryViewController.h; sourceTree = "<group>"; };
 		554F85751586303F006B224B /* PlayXMLDictionaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayXMLDictionaryViewController.m; sourceTree = "<group>"; };
 		554F85781586303F006B224B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PlayXMLDictionaryViewController.xib; sourceTree = "<group>"; };
+		554F858D1586345D006B224B /* BlognoneServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlognoneServices.h; sourceTree = "<group>"; };
+		554F858E1586345D006B224B /* BlognoneServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlognoneServices.m; sourceTree = "<group>"; };
+		554F859115864502006B224B /* LICENCE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE.md; sourceTree = "<group>"; };
+		554F859215864502006B224B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		554F859315864502006B224B /* RELEASE NOTES.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "RELEASE NOTES.md"; sourceTree = "<group>"; };
+		554F859415864502006B224B /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		554F859515864502006B224B /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				554B046315877C5B00126007 /* QuartzCore.framework in Frameworks */,
 				554F85631586303F006B224B /* UIKit.framework in Frameworks */,
 				554F85651586303F006B224B /* Foundation.framework in Frameworks */,
 				554F85671586303F006B224B /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +72,7 @@
 		554F85531586303D006B224B = {
 			isa = PBXGroup;
 			children = (
+				554F859015864502006B224B /* XMLDictionary */,
 				554F85681586303F006B224B /* PlayXMLDictionary */,
 				554F85611586303F006B224B /* Frameworks */,
 				554F855F1586303F006B224B /* Products */,
@@ -67,6 +90,7 @@
 		554F85611586303F006B224B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				554B046215877C5B00126007 /* QuartzCore.framework */,
 				554F85621586303F006B224B /* UIKit.framework */,
 				554F85641586303F006B224B /* Foundation.framework */,
 				554F85661586303F006B224B /* CoreGraphics.framework */,
@@ -81,6 +105,11 @@
 				554F85721586303F006B224B /* PlayXMLDictionaryAppDelegate.m */,
 				554F85741586303F006B224B /* PlayXMLDictionaryViewController.h */,
 				554F85751586303F006B224B /* PlayXMLDictionaryViewController.m */,
+				554F858D1586345D006B224B /* BlognoneServices.h */,
+				554F858E1586345D006B224B /* BlognoneServices.m */,
+				551EDE64158652BF00C6C82B /* NewsDetailViewController.h */,
+				551EDE65158652BF00C6C82B /* NewsDetailViewController.m */,
+				551EDE66158652BF00C6C82B /* NewsDetailViewController.xib */,
 				554F85771586303F006B224B /* PlayXMLDictionaryViewController.xib */,
 				554F85691586303F006B224B /* Supporting Files */,
 			);
@@ -90,12 +119,25 @@
 		554F85691586303F006B224B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				554B045F15877A8200126007 /* blognoneNav.png */,
 				554F856A1586303F006B224B /* PlayXMLDictionary-Info.plist */,
 				554F856B1586303F006B224B /* InfoPlist.strings */,
 				554F856E1586303F006B224B /* main.m */,
 				554F85701586303F006B224B /* PlayXMLDictionary-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		554F859015864502006B224B /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				554F859115864502006B224B /* LICENCE.md */,
+				554F859215864502006B224B /* README.md */,
+				554F859315864502006B224B /* RELEASE NOTES.md */,
+				554F859415864502006B224B /* XMLDictionary.h */,
+				554F859515864502006B224B /* XMLDictionary.m */,
+			);
+			path = XMLDictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +193,11 @@
 			files = (
 				554F856D1586303F006B224B /* InfoPlist.strings in Resources */,
 				554F85791586303F006B224B /* PlayXMLDictionaryViewController.xib in Resources */,
+				554F859615864502006B224B /* LICENCE.md in Resources */,
+				554F859715864502006B224B /* README.md in Resources */,
+				554F859815864502006B224B /* RELEASE NOTES.md in Resources */,
+				551EDE68158652BF00C6C82B /* NewsDetailViewController.xib in Resources */,
+				554B046015877A8200126007 /* blognoneNav.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +211,9 @@
 				554F856F1586303F006B224B /* main.m in Sources */,
 				554F85731586303F006B224B /* PlayXMLDictionaryAppDelegate.m in Sources */,
 				554F85761586303F006B224B /* PlayXMLDictionaryViewController.m in Sources */,
+				554F858F1586345D006B224B /* BlognoneServices.m in Sources */,
+				554F859915864502006B224B /* XMLDictionary.m in Sources */,
+				551EDE67158652BF00C6C82B /* NewsDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +325,7 @@
 				554F857E1586303F006B224B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

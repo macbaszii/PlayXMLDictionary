@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PlayXMLDictionaryViewController : UIViewController
+@interface PlayXMLDictionaryViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (nonatomic, strong) UITableView *tableView;
 
 @end
